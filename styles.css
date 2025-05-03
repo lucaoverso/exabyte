@@ -122,12 +122,14 @@ nav a:hover {
     color: #2C003E;
     padding: 0.8rem 2rem;
     border: none;
+    text-align: center;
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
     transition: background-color 0.3s, transform 0.3s;
     z-index: 1;
+    width: 250px;
 }
 
 .form-btn:hover {
@@ -181,6 +183,14 @@ h3 {
     border-radius: 15px;
 }
 
+.missao .missao-img {
+    order: 1;
+}
+
+.missao h3 {
+    order: 2;
+}
+
 .card {
     background-color: rgba(255, 255, 255, 0.05);
     padding: 1rem;
@@ -194,6 +204,13 @@ h3 {
     width: 250px;
     border-radius: 10px;
     border: none;
+}
+
+.section-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
 }
 
 .card:hover {
@@ -244,13 +261,22 @@ footer {
         text-align: center;
     }
 
-    header>a,nav, hr{
+    header>a,nav, hr {
         display: none;
 
     }
 
     .hero h1 {
         font-size: 1.5rem;
+    }
+
+    .hero-banner {
+        width: 100vw;
+        margin-top: -80px;
+    }
+
+    .hero::before {
+        height: 60vh;
     }
 
     .slide {
