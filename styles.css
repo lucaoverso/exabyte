@@ -272,11 +272,12 @@ footer {
 
     .hero-banner {
         width: 100vw;
+
         margin-top: -80px;
     }
 
     .hero::before {
-        height: 60vh;
+        height: 100vh;
     }
 
     .slide {
