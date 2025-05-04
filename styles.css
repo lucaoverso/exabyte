@@ -254,6 +254,10 @@ footer {
     color: #B0BEC5;
 }
 
+hr {
+    color: #9457ac;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
 
